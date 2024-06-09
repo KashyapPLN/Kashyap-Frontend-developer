@@ -1,0 +1,94 @@
+.finalPage{
+    height:100vh;
+    padding:3vw;
+    background: url('../../assets/final.png') no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.get-started-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    font-size: max(2.5vw,22px);
+   padding-left: 2.5%;
+  padding-right: 2.5%;
+  align-items: center;
+  background: rgb(138, 89, 186);
+  background: linear-gradient(78deg, rgba(138, 89, 186, 1) 0%, rgba(194, 93, 197, 1) 50%);
+  border-radius: 12px;
+}
+.get-started-div button{
+    background-color: transparent;
+    border: none;
+    height:fit-content;
+    color:white;
+    font-size: max(2.5vw,22px);
+}
+
+.final-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.final-div-left{
+    font-size: 20px;
+}
+
+.final-div-right{
+  display: flex;
+  flex-direction: column;
+}
+.final-div-right p{
+    text-align: end;
+    font-size: 14px;
+}
+.final-div-form input{
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 6px;
+    height:2vw;
+    width:300px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.final-div-form button{
+    padding: 10px 15px;
+    color: white;
+    background: rgb(138, 89, 186);
+    background: linear-gradient(78deg, rgba(138, 89, 186, 1) 0%, rgba(194, 93, 197, 1) 50%);
+    border: none;
+    font-size: 20px;
+    width: 30%;
+    border-radius: 8px;
+    border: 1px solid #dd68dd;
+}
+
+.final-div-form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.finalpage-footer{
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-right ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row ;
+    gap:24px;
+    font-size: 20px;
+}
