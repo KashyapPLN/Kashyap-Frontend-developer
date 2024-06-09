@@ -1,0 +1,36 @@
+.page3{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap:2vw;
+    background: url('../../assets/pg3-bg.png') no-repeat;
+background-size: cover;
+}
+.page3-text{
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+.page3-text h3{
+    color: white;
+    font-size: max(2.5vw,22px);
+}
+
+.page3-text ul {
+    color: #504e50;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0;
+    margin-top: 0;
+    line-height: 50px;
+}
+
+.page3-text ul li {
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.page3-text ul li.active {
+    color: rgb(101 182 245);
+}
