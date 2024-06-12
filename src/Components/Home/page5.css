@@ -1,5 +1,5 @@
 .page5{
-    height: 100vh;
+    height: 150vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -14,25 +14,28 @@
 .shoe-container{
     display: flex;
     flex-direction: column;
-    width:15vw;
-    height:15vw;
+    width:25vw;
+    height:25vw;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(122, 70, 79, 0.25) 100%);
     align-items: center;
     position: relative;
     color: white;
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
     border-radius: 12px;
 }
 .shoe-container img{
-    height:200px;
-    width:250px;
+    height:300px;
+    width:350px;
     z-index: 1000;
+    position: absolute;
+    top:20vh
 }
 
 .shoe-color-div{
     background: #e58b8d;
-    height:12vh;
+    height:18vh;
     width:80%;
     position: absolute;
     bottom: 0;
@@ -44,10 +47,11 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(153, 56, 151, 0.25) 100%);
     display: flex;
     flex-direction: column;
-    height:15vw;
-    width:30vw;
+    height:25vw;
+    width:40vw;
     color: white;
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
     border-radius: 12px;
     align-items: center;
@@ -72,12 +76,13 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(122, 70, 79, 0.25) 100%);
     display: flex;
     flex-direction: column;
-    width:15vw;
-    height:15vw;
+    width:25vw;
+    height:25vw;
     align-items: center;
     position: relative;
     color: white;
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
     border-radius: 12px;
   }
