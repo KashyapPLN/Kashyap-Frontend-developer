@@ -1,0 +1,108 @@
+.page4 {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../../assets/page4.png') no-repeat;
+    background-size: cover;
+}
+
+.list1,
+.list2 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: margin-left 1s;
+}
+
+.list2 {
+    margin-left: 6vw;
+}
+
+.list1 li,
+.list2 li {
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.animate-list1 {
+    margin-left: 8vw;
+}
+
+.animate-list2 {
+    margin-left: 0;
+}
+
+.reset-list1 {
+    margin-left: 0;
+}
+
+.reset-list2 {
+    margin-left: 6vw;
+}
+
+.list1 li:first-child {
+    background: linear-gradient(78deg, rgba(40, 67, 82, 1) 26%, rgba(87, 93, 93, 1) 75%);
+}
+
+.list1 li:nth-child(2) {
+    background: linear-gradient(78deg, rgba(54, 49, 53, 1) 33%, rgba(89, 44, 88, 1) 67%);
+}
+
+.list1 li:nth-child(3) {
+    background: linear-gradient(78deg, rgba(87, 93, 93, 1) 33%, rgba(40, 67, 82, 1) 67%);
+}
+
+.list1 li:nth-child(4) {
+    background: linear-gradient(78deg, rgba(89, 44, 88, 1) 23%, rgba(54, 49, 53, 1) 71%);
+}
+
+.list1 li:nth-child(5) {
+    background: linear-gradient(78deg, rgba(47, 44, 45, 1) 13%, rgba(86, 57, 62, 1) 61%);
+}
+
+.list1 li:nth-child(6) {
+    background: linear-gradient(78deg, rgba(67, 53, 88, 1) 26%, rgba(47, 44, 45, 1) 77%);
+}
+
+.list1 li:nth-child(7) {
+    background: linear-gradient(78deg, rgba(86, 57, 62, 1) 13%, rgba(47, 44, 45, 1) 61%);
+}
+
+.list2 li:first-child {
+    background: linear-gradient(78deg, rgba(86, 57, 62, 1) 13%, rgba(47, 44, 45, 1) 61%);
+}
+
+.list2 li:nth-child(2) {
+    background: linear-gradient(78deg, rgba(67, 53, 88, 1) 26%, rgba(47, 44, 45, 1) 77%);
+}
+
+.list2 li:nth-child(3) {
+    background: linear-gradient(78deg, rgba(47, 44, 45, 1) 13%, rgba(86, 57, 62, 1) 61%);
+}
+
+.list2 li:nth-child(4) {
+    background: linear-gradient(78deg, rgba(89, 44, 88, 1) 23%, rgba(54, 49, 53, 1) 71%);
+}
+
+.list2 li:nth-child(5) {
+    background: linear-gradient(78deg, rgba(87, 93, 93, 1) 33%, rgba(40, 67, 82, 1) 67%);
+}
+
+.list2 li:nth-child(6) {
+    background: linear-gradient(78deg, rgba(54, 49, 53, 1) 33%, rgba(89, 44, 88, 1) 67%);
+}
+
+.list2 li:nth-child(7) {
+    background: linear-gradient(78deg, rgba(46,70,83,1) 26%, rgba(42,43,44,1) 77%);
+}
+
+.list2 li:nth-child(8) {
+    background: linear-gradient(78deg, rgba(47, 44, 45, 1) 13%, rgba(86, 57, 62, 1) 61%);
+}
